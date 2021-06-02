@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { SubTitle, Text } from "../typography";
 import { AddStepWrapper, Input, TextArea } from "./style";

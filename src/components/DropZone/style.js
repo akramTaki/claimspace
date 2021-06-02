@@ -7,7 +7,7 @@ export const DropZoneWrapper = styled.div`
   border-radius: 3px;
   padding: 17px;
   margin: auto;
-  opacity: 0.3;
+  opacity: ${({opacity}) => opacity};
 `;
 
 export const PlusSign = styled.div`
